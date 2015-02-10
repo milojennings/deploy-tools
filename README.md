@@ -2,7 +2,7 @@
 
 A box of tools for deploying INN's WordPress sites to WPEngine. Based on Chicago Tribune's [deploy-tools](https://github.com/newsapps/deploy-tools).
 
-[Read documentation for all included commands here.](https://github.com/INN/deploy-tools/blob/master/COMMANDS.md)
+[Read documentation for all included commands here.](https://github.com/milojennings/deploy-tools/blob/master/COMMANDS.md)
 
 ## Prerequisites
 
@@ -13,9 +13,9 @@ Set up python dev environment:
     $ sudo easy_install pip
     $ sudo pip install virtualenv
     $ sudo pip install virtualenvwrapper
-    $ echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.zshrc
+    $ echo 'source /usr/local/bin/virtualenvwrapper.sh' >> ~/.bash_profile
 
-Change "~/.zshrc" to the appropriate rc file for your shell. If you're using bash: "~/.bashrc".
+Change "~/.bash_profile" to the appropriate rc file for your shell. If you're using bash: "~/.bashrc".
 
 Open a new terminal window or tab and create a virtual environment for your project:
 
